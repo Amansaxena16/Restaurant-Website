@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar section start from here  */
+.container .navbar .navbar_logo {
+    width: 200px;
+}
+.container .navbar .navbar_logo img {
+    width: 100%;
+}
+.container .navbar .navbar_bar a {
+    font-size: 22px;
+    color: black;
+}
+
+/* navbar section end here  */
+
+/* banner section start from here  */
+
+.container .row .left_side .banner_image img {
+    width: 100%;
+}
+.container .row .left_side .banner_image {
+    width: 465px;
+}
+@media(max-width:900px){
+    .container .row .left_side .banner_image {
+        width: 100%;
+    }
+}
+.container .row .right_side .banner_right_side .banner_right_side {
+    margin: 35px 0px;
+    display: flex;
+}
+.container .row .right_side .banner_right_side .banner_right_side a {
+    padding: 5px 20px;
+    color: #fff;
+    background-color: rgb(20, 159, 57);
+    border: 1px solid rgb(20, 159, 57);
+    text-decoration: none;
+    display: block;
+}
+.container .row .right_side .banner_right_side .banner_right_side a:hover{
+    color: rgb(20, 159, 57);
+    border: 1px solid rgb(20, 159, 57);
+    background-color: #fff;
+}
+.container .row .right_side .banner_right_side .banner_heading h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+}
+.container .row .right_side .banner_right_side .banner_para span {
+    font-size: 20px;
+    color: grey;
+
+}
+.container .row .right_side .banner_right_side .explore_btn {
+    margin: 20px;
+    display: flex;
+}
+.container .row .right_side .banner_right_side .explore_btn a {
+    padding: 3px 20px;
+    color: #fff;
+    background-color: rgb(255, 192, 102);
+    border: 1px solid rgb(255, 192, 102);
+    text-decoration: none;
+    display: block;
+}
+.container .row .right_side .banner_right_side .explore_btn a:hover{
+    background-color: rgb(241,156,35,1);
+}
+/* banner section end here  */
+
+/* feature section start from here  */
+.container .offer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .offer .feature .discount_voucher {
+    display: flex;
+}
+.container .offer .feature .discount_voucher .icon .icon_heading {
+    display: flex;
+}
+.container .offer .feature .discount_voucher .icon {
+    width: 50px;
+}
+.container .offer .feature .discount_voucher .icon img {
+    width: 100%;
+}
+.container .offer .feature .discount_voucher .icon_heading {
+    line-height: 10px;
+    margin-left: 10px;
+}
+.container .offer .feature .discount_voucher .icon_heading h5 {
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    font-weight: 600;
+}
+.container .offer .feature .discount_voucher .icon_heading span {
+    font-size: 10px;
+    color: grey;
+}
+/* feature section end here  */
+
+/* line code start from here  */
+.line {
+    border: 0.5px solid  grey;
+}
+/* line code end here  */
+
+/* menu & explore section end here  */
+.container .menu_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.container .menu_btn a {
+    padding: 5px 15px;
+    background-color: rgb(20, 159, 57);
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    border: 1px solid rgb(20, 159, 57);
+    text-decoration: none;
+}
+.container .explore_heading span {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.container .menu {
+    display: grid;
+    gap: 7px;
+    grid-template-areas: 
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7"
+}
+
+.item1 {
+    grid-area: I1;
+}
+.item2 {
+    grid-area: I2;
+}
+.item3 {
+    grid-area: I3;
+}
+.item4 {
+    grid-area: I4;
+}
+.item5 {
+    grid-area: I5;
+}
+.item6 {
+    grid-area: I6;
+}
+.item7 {
+    grid-area: I7;
+}
+/* menu & explore section end here  */
+
+
+/* footer section start from here */
+.container-fluid {
+    width: 100%;
+    height: 165px;
+    background-color:#FFF0DB;;
+}
+.container-fluid .container .row .footer_img {
+    display: flex;
+    justify-content: center;
+}
+.container-fluid .container .row .footer_img img {
+    width: 150px;
+}
+.container-fluid .container .row .heading span {
+    font-size: 20px;
+    color: grey;
+    font-family: system-ui;
+    font-weight: 500;
+}
+.container-fluid .container .row .properties ul {
+    line-height: 22px;
+}
+.container-fluid .container .row .properties ul li  {
+    list-style-type: none;
+}
+.container-fluid .container .row .properties ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: system-ui;
+}
+.container-fluid .container .row .properties ul li a:hover{
+    text-decoration: underline;
+}
+
+.container-fluid .container .row .properties ul .email {
+    width: 183px;
+    height: 22px;
+    font-size: 12px;
+    padding-left: 4px
+}
+.container-fluid .container .row .properties ul .follow_us {
+    font-weight: 500;
+    font-size: 13px;
+}
+.container-fluid .container .row .properties ul .fa {
+    font-size: 20px;
+    padding: 6px 6px;
+}
+
+/* footer section end here  */
